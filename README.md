@@ -62,7 +62,7 @@ poetry run python src/main.py
 ### Run Tests
 
 ```bash
-poetry run pytest
+PYTHONPATH=src poetry run pytest
 ```
 
 ---
