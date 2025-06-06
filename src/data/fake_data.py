@@ -28,3 +28,5 @@ dummy_customer = CustomerProfile(
 )
 
 sample_cart = [cart_item]
+
+valid_voucher = ["SUPER69", "SAVE20"]

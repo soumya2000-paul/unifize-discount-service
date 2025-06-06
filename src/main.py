@@ -4,7 +4,7 @@ from service.discount_service import DiscountService
 
 async def main():
     service = DiscountService()
-    result = await service.calculate_cart_discounts(sample_cart, dummy_customer, payment_info)
+    result = await service.calculate_cart_discounts(sample_cart, dummy_customer, payment_info, 'SAVE20')
 
     print("Original Price:", result.original_price)
     print("Final Price:", result.final_price)
