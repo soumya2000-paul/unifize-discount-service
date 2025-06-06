@@ -1,5 +1,5 @@
 from decimal import Decimal
-from src.models.models import Product, CartItem, PaymentInfo, BrandTier, CustomerProfile
+from models.models import Product, CartItem, PaymentInfo, BrandTier, CustomerProfile
 
 puma_tshirt = Product(
     id="puma-ts-001",
